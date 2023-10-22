@@ -13,8 +13,9 @@ const Navbar = () => {
 
     return (
         <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-
-            <h1 className='w-full text-3xl font-bold text-[#09a2fa]'>Pace Clean</h1>
+            <Link to='/'>
+             <h1 className='w-full text-3xl font-bold text-[#09a2fa]'>Pace Clean</h1>
+            </Link>
 
             <ul className='hidden md:flex'>
                 <li className='p-4'>

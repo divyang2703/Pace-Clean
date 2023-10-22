@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='w-full bg-white py-16 px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        <img className='w-[500px] mx-auto my-4 md:hover:scale-110 duration-300' src={Logo} alt="logo" />
+        <img className='w-[500px] mx-auto my-4 rounded-md md:hover:scale-110 duration-300' src={Logo} alt="logo" />
         <div>
           <p className='text-[#09a2fa] font-bold text-6xl'>Pace Clean</p>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>MAKE YOUR HOME A BETTER PLACE</h1>

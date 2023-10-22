@@ -11,6 +11,7 @@ import {
   Route,
 } from "react-router-dom";
 import Contact from './compnents/Contact';
+import ScrollToTop from './compnents/ScrollToTop';
 
 
 
@@ -21,8 +22,9 @@ function App() {
     
     <div>
       <Navbar />
-        
+      <ScrollToTop />
           <Routes>
+            
             <Route  exact path="/" element={<Hero />} /> 
             
             <Route  excat path="/services" element={<Services />} /> 
@@ -30,9 +32,7 @@ function App() {
             <Route  excat path="/pricing" element={<Pricing />} /> 
             <Route  excat path="/about" element={<About />} /> 
             <Route  excat path="/contact" element={<Contact />} /> 
-            
           </Routes>
-        
       <Footer />
     </div>
     
